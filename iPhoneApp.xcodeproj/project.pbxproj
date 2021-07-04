@@ -13,6 +13,7 @@
 		0416189C2691995600A13EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0416189A2691995600A13EA2 /* Main.storyboard */; };
 		0416189E2691995800A13EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0416189D2691995800A13EA2 /* Assets.xcassets */; };
 		041618A12691995800A13EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0416189F2691995800A13EA2 /* LaunchScreen.storyboard */; };
+		041618AA26919A6300A13EA2 /* DummyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041618A926919A6300A13EA2 /* DummyFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0416189D2691995800A13EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041618A02691995800A13EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041618A22691995800A13EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041618A926919A6300A13EA2 /* DummyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				041618942691995600A13EA2 /* AppDelegate.swift */,
 				041618962691995600A13EA2 /* SceneDelegate.swift */,
 				041618982691995600A13EA2 /* ViewController.swift */,
+				041618A926919A6300A13EA2 /* DummyFile.swift */,
 				0416189A2691995600A13EA2 /* Main.storyboard */,
 				0416189D2691995800A13EA2 /* Assets.xcassets */,
 				0416189F2691995800A13EA2 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				041618992691995600A13EA2 /* ViewController.swift in Sources */,
 				041618952691995600A13EA2 /* AppDelegate.swift in Sources */,
+				041618AA26919A6300A13EA2 /* DummyFile.swift in Sources */,
 				041618972691995600A13EA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
