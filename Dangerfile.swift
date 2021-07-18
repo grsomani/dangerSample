@@ -11,7 +11,3 @@ let sourceChanges = allSourceFiles.first(where: { $0.hasPrefix("Sources") })
 if !changelogChanged && sourceChanges != nil {
   warn("No CHANGELOG entry added.")
 }
-
-if let pullRequestBody = danger.github.pullRequest.body &&  pullRequestBody.isEmpty {
-    warn("PR has no description. 📝 You should provide a description of the changes that have made.")
-}
